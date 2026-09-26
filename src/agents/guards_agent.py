@@ -80,7 +80,7 @@ _INJECTION_PATTERNS = [
     r"tiết\s+lộ\s+(mật\s+khẩu|api|system\s*prompt)",
     r"cho\s+tôi\s+(xem\s+)?(mật\s+khẩu|system\s*prompt|api\s*key)",
     r"bạn\s+là\s+DAN",
-    r"ticket\s+SEC-\d+",
+    r"ticket\s*#?SEC-\d+",
     r"\bCISO\b",
     r"hypotheticall?y.*(password|api\s*key|secret|credentials)",
     r"write\s+a\s+story.*(password|credentials|api\s*key|same\s+secrets)",
